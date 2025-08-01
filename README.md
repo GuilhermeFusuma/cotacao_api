@@ -24,15 +24,17 @@ Este projeto consulta a cotação do dólar em relação ao real utilizando a AP
    pip install -r requirements.txt
    ```
 
-4. **Configure o arquivo `.env` com sua chave de API (já configurado neste projeto):**
+4. **Configure o arquivo `.env` (crie um caso necessário) com sua chave de API:**
    ```env
+   # .env
+
    API_KEY=<SUA_CHAVE>
    ```
 
-5. **Execute o script `consulta.py`:**5. **Execute o script `consulta.py`:**
+5. **Execute o script `consulta.py`:**
    ```sh
    python consulta.py   python consulta.py
-   ```   ```
+   ```   
 
 O resultado será exibido no terminal, mostrando o valor de 1 dólar em reais.
 
