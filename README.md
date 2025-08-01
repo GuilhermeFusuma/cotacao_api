@@ -33,7 +33,7 @@ Este projeto consulta a cotação do dólar em relação ao real utilizando a AP
 
 5. **Execute o script `consulta.py`:**
    ```sh
-   python consulta.py   python consulta.py
+   python consulta.py
    ```   
 
 O resultado será exibido no terminal, mostrando o valor de 1 dólar em reais.
