@@ -14,21 +14,25 @@ Este projeto consulta a cotação do dólar em relação ao real utilizando a AP
 
 2. **Crie e ative o ambiente virtual (opcional, mas recomendado):**
    ```sh
-   python -m venv venv_GuilhermeFusuma
+   python -m venv venv_SEU-NOME
    # Para ativar no Windows:
-   venv_GuilhermeFusuma\Scripts\activate
+   venv_SEU-NOME\Scripts\activate
+   ```
 
 3. **Instale as dependências:**
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-pip install -r requirements.txt
+4. **Configure o arquivo `.env` com sua chave de API (já configurado neste projeto):**
+   ```env
+   API_KEY=<SUA_CHAVE>
+   ```
 
-4. **Configure o arquivo .env com sua chave de API (já configurado neste projeto):**
-
-API_KEY=622708fccdda42ea4222dab9
-
-5. **Execute o script consulta.py:**
-
-python [consulta.py](http://_vscodecontentref_/0)
+5. **Execute o script `consulta.py`:**5. **Execute o script `consulta.py`:**
+   ```sh
+   python consulta.py   python consulta.py
+   ```   ```
 
 O resultado será exibido no terminal, mostrando o valor de 1 dólar em reais.
 
